@@ -24,10 +24,9 @@ public class JanelaMigLayout extends JFrame {
 	private JTextField fieldValor;
 	private JTextField fieldTroco;
 	private JTextField fieldPreco;
-	private JTextField fieldQNT;
+	private JTextField fieldQuantidade;
 	private JTextField FieldValorItem;
 	private JTextField fieldSubtotal;
-	private JTextArea textArea;
 
 	public JanelaMigLayout() {
 		setTitle("M\u00F3dulo PVD");
@@ -39,11 +38,11 @@ public class JanelaMigLayout extends JFrame {
 		contentPane.setLayout(
 				new MigLayout("", "[grow][grow][grow][grow]", "[][grow][grow][grow][grow][grow][][grow][][][][][][grow][][grow]"));
 
-		JLabel lblCod = new JLabel("C\u00F3digo");
+		JLabel lblCodigo = new JLabel("C\u00F3digo");
 		lblCod.setFont(new Font("Tahoma", Font.BOLD, 14));
 		contentPane.add(lblCod, "cell 0 0");
 
-		JLabel lblDesc = new JLabel("Descri\u00E7\u00E3o");
+		JLabel lblDescricao = new JLabel("Descri\u00E7\u00E3o");
 		lblDesc.setFont(new Font("Tahoma", Font.BOLD, 14));
 		contentPane.add(lblDesc, "cell 1 0");
 
@@ -66,13 +65,13 @@ public class JanelaMigLayout extends JFrame {
 		textArea = new JTextArea();
 		contentPane.add(textArea, "cell 0 4 3 10,grow");
 
-		JLabel lblQnt = new JLabel("Quantidade");
-		lblQnt.setFont(new Font("Tahoma", Font.BOLD, 14));
-		contentPane.add(lblQnt, "cell 3 4");
+		JLabel lblQuantidade = new JLabel("Quantidade");
+		lblQuantidade.setFont(new Font("Tahoma", Font.BOLD, 14));
+		contentPane.add(lblQuantidade, "cell 3 4");
 
-		fieldQNT = new JTextField();
-		contentPane.add(fieldQNT, "cell 3 5,grow");
-		fieldQNT.setColumns(10);
+		fieldQuantidade = new JTextField();
+		contentPane.add(fieldQuantidade, "cell 3 5,grow");
+		fieldQuantidade.setColumns(10);
 
 		JLabel lblValorItem = new JLabel("Valor do item");
 		lblValorItem.setFont(new Font("Tahoma", Font.BOLD, 14));
