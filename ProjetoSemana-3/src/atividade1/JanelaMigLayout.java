@@ -1,4 +1,4 @@
-// Maico Triaca Cunha - Inform·tica BiomÈdica
+// Maico Triaca Cunha - Inform√°tica Biom√©dica
 
 package atividade1;
 
@@ -55,9 +55,9 @@ public class JanelaMigLayout extends JFrame {
 		contentPane.add(fieldDescricao, "cell 1 1 2097051 1,grow");
 		fieldDescricao.setColumns(10);
 
-		JLabel lblNewLabel = new JLabel("Pre\u00E7o");
-		lblNewLabel.setFont(new Font("Tahoma", Font.BOLD, 14));
-		contentPane.add(lblNewLabel, "cell 3 2,alignx leading,aligny baseline");
+		JLabel lblPreco = new JLabel("Pre\u00E7o");
+		lblPreco.setFont(new Font("Tahoma", Font.BOLD, 14));
+		contentPane.add(lblPreco, "cell 3 2,alignx leading,aligny baseline");
 
 		fieldPreco = new JTextField();
 		contentPane.add(fieldPreco, "cell 3 3,grow");
@@ -66,25 +66,25 @@ public class JanelaMigLayout extends JFrame {
 		textArea = new JTextArea();
 		contentPane.add(textArea, "cell 0 4 3 10,grow");
 
-		JLabel lblNewLabel_1 = new JLabel("Quantidade");
-		lblNewLabel_1.setFont(new Font("Tahoma", Font.BOLD, 14));
-		contentPane.add(lblNewLabel_1, "cell 3 4");
+		JLabel lblQnt = new JLabel("Quantidade");
+		lblQnt.setFont(new Font("Tahoma", Font.BOLD, 14));
+		contentPane.add(lblQnt, "cell 3 4");
 
 		fieldQNT = new JTextField();
 		contentPane.add(fieldQNT, "cell 3 5,grow");
 		fieldQNT.setColumns(10);
 
-		JLabel lblNewLabel_2 = new JLabel("Valor do item");
-		lblNewLabel_2.setFont(new Font("Tahoma", Font.BOLD, 14));
-		contentPane.add(lblNewLabel_2, "cell 3 6");
+		JLabel lblValorItem = new JLabel("Valor do item");
+		lblValorItem.setFont(new Font("Tahoma", Font.BOLD, 14));
+		contentPane.add(lblValorItem, "cell 3 6");
 
 		FieldValorItem = new JTextField();
 		contentPane.add(FieldValorItem, "cell 3 7,grow");
 		FieldValorItem.setColumns(10);
 
-		JLabel lblNewLabel_3 = new JLabel("Sub Total");
-		lblNewLabel_3.setFont(new Font("Tahoma", Font.BOLD, 14));
-		contentPane.add(lblNewLabel_3, "cell 3 12");
+		JLabel lblSubTotal = new JLabel("Sub Total");
+		lblSubTotal.setFont(new Font("Tahoma", Font.BOLD, 14));
+		contentPane.add(lblSubTotal, "cell 3 12");
 
 		fieldSubtotal = new JTextField();
 		contentPane.add(fieldSubtotal, "cell 3 13,grow");
